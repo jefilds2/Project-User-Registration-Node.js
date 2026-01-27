@@ -1,16 +1,75 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Cadastro de Usuários (Full Stack) | User Registration (Full Stack)
 
-Currently, two official plugins are available:
+Aplicação para **cadastrar e listar usuários** com **Front-end em React + Vite** e **Servidor/API separado**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **Gerenciadores de pacotes usados neste projeto:**  
+> - **Servidor/API:** `npm`  
+> - **Front-end:** `yarn`
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Sumário | Table of Contents
+- [🇧🇷 Português](#-português)
+  - [Sobre](#sobre)
+  - [Tecnologias](#tecnologias)
+  - [Estrutura de pastas](#estrutura-de-pastas)
+  - [Pré-requisitos (instalar)](#pré-requisitos-instalar)
+  - [Como rodar (passo a passo)](#como-rodar-passo-a-passo)
+    - [1) Servidor/API (npm)](#1-servidorapi-npm)
+    - [2) Front-end (yarn)](#2-front-end-yarn)
+  - [Como usar](#como-usar)
+  - [Configurar URL da API no Front-end](#configurar-url-da-api-no-front-end)
+  - [Scripts úteis](#scripts-úteis)
+  - [Build (produção)](#build-produção)
+- [🇺🇸 English](#-english)
+  - [About](#about)
+  - [Tech stack](#tech-stack)
+  - [Folder structure](#folder-structure)
+  - [Prerequisites (install)](#prerequisites-install)
+  - [How to run (step-by-step)](#how-to-run-step-by-step)
+    - [1) Server/API (npm)](#1-serverapi-npm)
+    - [2) Front-end (yarn)](#2-front-end-yarn)
+  - [How to use](#how-to-use)
+  - [Configure API URL in the Front-end](#configure-api-url-in-the-front-end)
+  - [Useful scripts](#useful-scripts)
+  - [Build (production)](#build-production)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🇧🇷 Português
+
+## Sobre
+Este repositório contém um projeto de **Cadastro de Usuários**, composto por:
+
+- **Servidor/API**: responsável por receber as requisições do front-end e gerenciar os dados dos usuários.
+- **Front-end (React + Vite)**: interface para cadastrar usuários (ex.: **nome**, **idade**, **e-mail**) e visualizar/listar os cadastrados.
+
+✅ **Ponto importante:** este projeto usa **npm no servidor** e **yarn no front-end** (por decisão de setup).
+
+---
+
+## Tecnologias
+### Front-end
+- React
+- Vite
+- JavaScript
+- ESLint
+- Yarn
+
+### Servidor/API
+- Node.js
+- npm
+
+---
+
+## Estrutura de pastas
+> Ajuste os nomes se no seu repositório for diferente.
+
+```txt
+/
+├─ server/   → Servidor/API (npm)
+└─ web/      → Front-end React + Vite (yarn)
