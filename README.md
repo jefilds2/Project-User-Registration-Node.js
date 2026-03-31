@@ -243,9 +243,11 @@ Desenvolvido por **Jefferson Miranda**.
 
 [Project-User-Registration-Node.js](https://github.com/jefilds2/Project-User-Registration-Node.js)
 
-```
+
 
 ## Preview
-![1770762147209](https://github.com/user-attachments/assets/34a3a1ec-7ef0-459e-a0eb-090d227617b8)
-![1770762147036](https://github.com/user-attachments/assets/42e39a63-43df-4d8d-81cb-58b0d53de459)
+![1770762147209](https://github.com/user-attachments/assets/2d825abf-3483-45df-afd0-65c2a34af420)
+![1770762147036](https://github.com/user-attachments/assets/569e4cfd-fbfb-47e2-9666-3f1ed9bcceba)
+
+
 
